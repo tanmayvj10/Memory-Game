@@ -1,5 +1,5 @@
 # Memory Game
-
+https://tanmayvj10.github.io/Memory-Game/
 This is a simple Memory Game implemented using HTML, CSS, and JavaScript. The game tests your memory by requiring you to remember the sequence of colored blocks that light up in a random order.
 
 ## Table of Contents
