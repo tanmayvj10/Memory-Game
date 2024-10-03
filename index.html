@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Screen 1: Start Button -->
+    <div id="start-screen" class="screen active">
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <!-- Screen 2: Game Panel -->
+    <div id="game-screen" class="screen hidden">
+        <div id="level">Level: 0</div>
+        <div id="score">Score: 0</div>
+        <div id="high-score">High Score: 0</div>
+
+        <div class="grid">
+            <div class="tile" id="red"></div>
+            <div class="tile" id="blue"></div>
+            <div class="tile" id="yellow"></div>
+            <div class="tile" id="green"></div>
+        </div>
+    </div>
+
+    <!-- Screen 3: Game Over Screen -->
+    <div id="game-over-screen" class="screen hidden">
+        <p id="game-over-text">Game Over!</p>
+        <button id="replay-button">Replay</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
